@@ -1,0 +1,11 @@
+{
+  "package_id": "RLP-EXAMPLE-001",
+  "status": "dry_run",
+  "external_write": false,
+  "approval_required": true,
+  "intended_change": "Describe the proposed external change without performing it.",
+  "rollback_plan": "Describe how the named target would return to its prior state after approval.",
+  "claim_ids": [],
+  "asset_ids": []
+}
+

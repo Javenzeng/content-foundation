@@ -1,0 +1,11 @@
+{
+  "package_id": "RLP-NORTHSTAR-001",
+  "status": "dry_run",
+  "external_write": false,
+  "approval_required": true,
+  "intended_change": "Prepare a fictional bottle-care page for human review in a future CMS workflow.",
+  "rollback_plan": "If later approved and published, restore the previous CMS draft or unpublish only the item created by that named job.",
+  "claim_ids": ["CLM-NORTHSTAR-001"],
+  "asset_ids": ["AST-NORTHSTAR-001"]
+}
+

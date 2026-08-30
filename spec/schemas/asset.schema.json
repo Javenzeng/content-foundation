@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Foundation Asset",
+  "type": "object",
+  "required": ["asset_id", "role", "status", "rights_basis"],
+  "properties": {
+    "asset_id": {"type": "string", "pattern": "^AST-[A-Z0-9-]+$"},
+    "role": {"type": "string", "enum": ["hero", "diagram", "document", "other"]},
+    "status": {"type": "string", "enum": ["candidate", "final", "rejected"]},
+    "rights_basis": {"type": "string", "minLength": 1},
+    "sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"}
+  },
+  "additionalProperties": false
+}
+

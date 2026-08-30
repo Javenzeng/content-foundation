@@ -1,0 +1,19 @@
+[
+  {
+    "source_id": "SRC-NORTHSTAR-001",
+    "title": "Northstar Bottle Care Guide v1.2",
+    "canonical_url": "https://example.invalid/northstar/bottle-care-v1-2",
+    "source_type": "first_party",
+    "retrieved_on": "2026-08-29",
+    "status": "verified"
+  },
+  {
+    "source_id": "SRC-NORTHSTAR-002",
+    "title": "Northstar Illustration License Record",
+    "canonical_url": "https://example.invalid/northstar/illustration-license",
+    "source_type": "first_party",
+    "retrieved_on": "2026-08-29",
+    "status": "verified"
+  }
+]
+

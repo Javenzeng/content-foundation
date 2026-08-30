@@ -1,0 +1,11 @@
+[
+  {
+    "claim_id": "CLM-EXAMPLE-001",
+    "statement": "Replace with one scoped statement.",
+    "claim_type": "fact",
+    "scope": "Replace with audience, market, product, and time boundary.",
+    "source_ids": ["SRC-EXAMPLE-001"],
+    "status": "candidate"
+  }
+]
+

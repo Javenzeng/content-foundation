@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Foundation Source",
+  "type": "object",
+  "required": ["source_id", "title", "canonical_url", "source_type", "retrieved_on", "status"],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "canonical_url": {"type": "string", "format": "uri"},
+    "source_type": {"type": "string", "enum": ["first_party", "standard", "research", "editorial", "other"]},
+    "retrieved_on": {"type": "string", "format": "date"},
+    "status": {"type": "string", "enum": ["candidate", "verified", "retired"]}
+  },
+  "additionalProperties": false
+}
+

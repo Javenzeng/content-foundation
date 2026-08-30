@@ -1,0 +1,11 @@
+[
+  {
+    "claim_id": "CLM-NORTHSTAR-001",
+    "statement": "The fictional Northstar glass bottle care guide recommends hand washing its bottle after use.",
+    "claim_type": "fact",
+    "scope": "Fictional Northstar 500 ml glass bottle; guide version 1.2; no claim about other products or safety outcomes.",
+    "source_ids": ["SRC-NORTHSTAR-001"],
+    "status": "verified"
+  }
+]
+

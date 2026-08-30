@@ -1,0 +1,11 @@
+[
+  {
+    "source_id": "SRC-EXAMPLE-001",
+    "title": "Replace with a source title",
+    "canonical_url": "https://example.invalid/source",
+    "source_type": "first_party",
+    "retrieved_on": "2026-01-01",
+    "status": "candidate"
+  }
+]
+

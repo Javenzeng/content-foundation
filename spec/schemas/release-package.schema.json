@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content Foundation Release Package",
+  "type": "object",
+  "required": ["package_id", "status", "external_write", "approval_required", "intended_change", "rollback_plan", "claim_ids", "asset_ids"],
+  "properties": {
+    "package_id": {"type": "string", "pattern": "^RLP-[A-Z0-9-]+$"},
+    "status": {"const": "dry_run"},
+    "external_write": {"const": false},
+    "approval_required": {"const": true},
+    "intended_change": {"type": "string", "minLength": 1},
+    "rollback_plan": {"type": "string", "minLength": 1},
+    "claim_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "asset_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "additionalProperties": false
+}
+
